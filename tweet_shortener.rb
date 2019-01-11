@@ -1,13 +1,10 @@
 def dictionary
   dictionary = {
-    "hello" => 
-  
-  
-  
-  "hello" becomes 'hi'
-"to, two, too" become '2' 
-"for, four" become '4'
-'be' becomes 'b'
-'you' becomes 'u'
-"at" becomes "@" 
-"and" becomes "&"
+    "hello" => "hi", 
+    {"to", "two", "too"} => "2"
+    {"for", "four"} => "4"
+    "be" => "b"
+    "you" = "u"
+    "at" => "@"
+    "and" => "&"
+    }
