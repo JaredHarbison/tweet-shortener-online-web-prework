@@ -19,3 +19,5 @@ def dictionary(word)
   end
   word
 end
+
+def word_shortener(tweet)
