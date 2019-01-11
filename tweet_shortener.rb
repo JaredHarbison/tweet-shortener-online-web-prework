@@ -42,3 +42,11 @@ def selective_tweet_shortener(tweet)
 end
   
 def shortened_tweet_truncator(tweet)
+    shortened = word_substituter(tweet)
+  if shortened.length > 140
+    shortened[0..136].concat("...")
+  else 
+    shortened
+  end
+end
+
