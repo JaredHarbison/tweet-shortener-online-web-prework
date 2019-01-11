@@ -20,8 +20,8 @@ def dictionary(word)
   word
 end
 
-def substituter(tweet)
-  new_tweet=tweet.split.map! do [word]
+def word_substituter(tweet)
+  new_tweet = tweet.split.map! do |word|
     dictionary(word)
   end
   new_tweet.join(" ")
