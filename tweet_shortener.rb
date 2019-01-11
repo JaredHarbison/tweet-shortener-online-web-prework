@@ -9,3 +9,5 @@ def dictionary(word)
     "&" => "and"
   }
 end
+
+def word_shortener(tweet)
