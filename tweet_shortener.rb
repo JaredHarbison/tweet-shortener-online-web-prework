@@ -20,4 +20,4 @@ def dictionary(word)
   word
 end
 
-def word_shortener(tweet)
+def substituter(tweet)
