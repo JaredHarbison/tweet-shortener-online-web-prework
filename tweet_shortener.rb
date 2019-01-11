@@ -21,3 +21,4 @@ def dictionary(word)
 end
 
 def substituter(tweet)
+  new_tweet=
