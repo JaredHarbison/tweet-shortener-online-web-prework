@@ -21,4 +21,4 @@ def dictionary(word)
 end
 
 def substituter(tweet)
-  new_tweet=
+  new_tweet=tweet.split.map! do []
