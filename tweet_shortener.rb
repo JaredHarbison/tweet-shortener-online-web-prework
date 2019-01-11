@@ -26,3 +26,5 @@ def word_substituter(tweet)
   end
   new_tweet.join(" ")
 end
+
+def bulk_tweet_shortener(tweet)
