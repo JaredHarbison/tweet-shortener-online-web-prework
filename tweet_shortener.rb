@@ -25,3 +25,4 @@ def substituter(tweet)
     dictionary(word)
   end
   new_tweet.join(" ")
+end
